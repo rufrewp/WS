@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TrainersSource</RootNamespace>
+    <AssemblyName>TrainersSource.TrainersListQuery</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrainersSource.ApplicationServices.General\TrainersSource.ApplicationServices.General.csproj" />
+    <ProjectReference Include="..\TrainersSource.BusinessLogic\TrainersSource.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
